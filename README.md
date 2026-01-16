@@ -2,7 +2,7 @@
 Evaluating steering vectors across diverse tasks.
 
 
-This repository contains the code and data from [Comparing Bottom-Up and Top-Down Steering Approaches on In-Context Learning Tasks](https://arxiv.org/abs/2310.15213). In particular, this code supports evaluations of Function Vectors [Todd et al.](https://github.com/ericwtodd/function_vectors) and In-Context Vectors [Liu et al.](ttps://github.com/shengliu66/ICV).
+This repository contains the code and data from [Comparing Bottom-Up and Top-Down Steering Approaches on In-Context Learning Tasks](https://arxiv.org/abs/2310.15213). In particular, this code supports evaluations of Function Vectors ([Todd et al.](https://github.com/ericwtodd/function_vectors)) and In-Context Vectors ([Liu et al.](https://github.com/shengliu66/ICV)).
 
 ## Setup
 We suggest creating a conda environment to manage the required packages:
@@ -41,9 +41,9 @@ You can pass in custom experiment parameters for each type of evaluation script 
         - Usage: `--shots 0 3`
 - `ablation_experiment.py`: 
     - `--find_layers`: Keyword for layers to edit. Options are:
-        "first": first layer of the model
-        "last": last layer
-        "all": all layers
-        "middle": middle layer of model
-        "middle2": middle two layers of model
-        "middle4": middle four layers of model
+        - "first": first layer of the model
+        - "last": last layer
+        - "all": all layers
+        - "middle": middle layer of model
+        - "middle2": middle two layers of model
+        - "middle4": middle four layers of model
